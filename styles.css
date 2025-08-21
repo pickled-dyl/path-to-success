@@ -161,7 +161,6 @@ table {
 body {
     background-color: var(--lt-blue);
     width: 100vw;
-    max-width: 450px;
     font-family: var(--body-font);
     color: var(--black);
 }
@@ -188,6 +187,7 @@ header,
 main,
 footer {
     width: 22%;
+    max-width: 450px;
     margin: 0 auto;
     background-color: var(--dk-blue);
 }
