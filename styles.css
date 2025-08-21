@@ -277,6 +277,8 @@ main img {
 .bluecont {
     display: flex;
     flex-direction: column;
+    margin: 0 auto;
+    padding: 15px;
 }
 
 .bluecont h3 {
@@ -293,17 +295,19 @@ main img {
 
 .pinkcont {
     background-color: var(--pink);
+    margin: 0 auto;
+
+}
+
+.pinkcont h2 {
+    padding-top: 12px;
+    padding-left: 12px;
 }
 
 #choose {
     display: flex;
     flex-direction: column;
     padding: 0;
-}
-
-#choose h2 {
-    margin-top: 12px;
-    margin-left: 12px;
 }
 
 #choose ul {
@@ -368,4 +372,40 @@ main img {
     color: var(--black);
     padding: 12px;
     text-align: left;
+}
+
+#firststep {
+    display: grid;
+    grid-template-rows: 0.5fr 2fr 0.5fr;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 0;
+}
+
+#firststep h2 {
+    text-align: left;
+}
+
+#firststep p:first-of-type {
+    color: var(--white);
+    line-height: 1.5;
+    margin: 8px 12px;
+}
+
+#firststep p:last-child {
+    width: 85%;
+    margin: 0 auto;
+    box-shadow: var(--shadow);
+    background-color: var(--white);
+    border-radius: 15px;
+    text-align: center;
+    padding: 20px 0;
+}
+
+#firststep a {
+    text-decoration: none;
+    color: var(--black);
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 0.8rem;
 }
