@@ -267,3 +267,8 @@ main section {
     margin: 15px 0;
     padding: 0 15px;
 }
+
+main img {
+    width: 100px;
+    height: 100px;
+}
