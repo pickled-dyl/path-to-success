@@ -341,3 +341,31 @@ main img {
 #choose ul li:nth-child(4) {
     background-color: var(--white);
 }
+
+#pricing table,
+#pricing table tr,
+#pricing table td {
+    border: 1px solid var(--yellow);
+}
+
+#pricing table {
+    width: 65%;
+    margin: 0 auto;
+}
+
+#pricing table th {
+    background-color: var(--yellow);
+    color: var(--black);
+    font-weight: bolder;
+    font-size: 1.1rem;
+    padding: 15px 20px;
+    text-align: center;
+
+}
+
+#pricing table td {
+    background-color: var(--white);
+    color: var(--black);
+    padding: 12px;
+    text-align: left;
+}
