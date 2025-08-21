@@ -272,3 +272,15 @@ main img {
     width: 100px;
     height: 100px;
 }
+
+.deck {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background-color: var(--white);
+    border-radius: 50px;
+}
