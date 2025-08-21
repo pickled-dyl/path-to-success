@@ -162,10 +162,24 @@ body {
     background-color: var(--lt-blue);
     width: 100vw;
     font-family: var(--body-font);
+    color: var(--black);
 }
 
 body h2 {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
+    font-family: var(--header-font);
+}
+
+body h3 {
+    color: var(--yellow);
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+body h4 {
+    color: var(--dk-blue);
+    font-size: 1rem;
+    font-weight: bold;
 }
 
 header,
@@ -219,6 +233,7 @@ nav h2 {
     font-weight: bolder;
     text-transform: uppercase;
     letter-spacing: -1px;
+    font-family: var(--body-font);
 }
 
 nav ul,
@@ -244,4 +259,12 @@ nav a {
     color: var(--dk-blue);
     text-transform: uppercase;
     font-size: 0.8rem;
+}
+
+main section {
+    margin: 10px 0;
+}
+
+main h2 {
+    color: var(--white);
 }
