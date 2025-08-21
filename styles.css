@@ -161,6 +161,7 @@ table {
 body {
     background-color: var(--lt-blue);
     width: 100vw;
+    max-width: 450px;
     font-family: var(--body-font);
     color: var(--black);
 }
