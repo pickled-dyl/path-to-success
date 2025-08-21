@@ -142,44 +142,44 @@ table {
 
 /* ROOT VARIABLES */
 :root {
-    --dk-blue: #494FB5;
-    --lt-blue: #6B8FE5;
-    --yellow: #E8BA5A;
+    --purple: #484FB7;
+    --lavender: #6B8FE7;
+    --yellow: #E9BB57;
     --white: #fff;
-    --pink: #D95578;
-    --teal: #4AA0B8;
-    --black: #000;
+    --pink: #D9526F;
+    --teal: #4CA7C0;
+    --dk-gray: #1E1E1E;
 
     --header-font: "Kavoon", "Brush Script MT", cursive;
-    --body-font: Arial, sans-serif;
+    --body-font: "Inter", Arial, sans-serif;
 
-    --shadow: 5px 5px 3px var(--black);
+    --shadow: 5px 5px 3px var(--dk-gray);
 }
 
 /* GLOBAL STYLES (mobile first/small) */
 
 body {
-    background-color: var(--lt-blue);
+    background-color: var(--lavender);
     width: 100vw;
     font-family: var(--body-font);
-    color: var(--black);
+    color: var(--dk-gray);
 }
 
 body h2 {
-    font-size: 1.6rem;
+    font-size: 2rem;
     font-family: var(--header-font);
     color: var(--white);
 }
 
 body h3 {
     color: var(--yellow);
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     font-weight: bold;
 }
 
 body h4 {
-    color: var(--dk-blue);
-    font-size: 1.1rem;
+    color: var(--purple);
+    font-size: 1.15rem;
     font-weight: bold;
 }
 
@@ -189,7 +189,7 @@ footer {
     width: 22%;
     max-width: 450px;
     margin: 0 auto;
-    background-color: var(--dk-blue);
+    background-color: var(--purple);
 }
 
 header {
@@ -210,7 +210,7 @@ header p {
 
 header h1 {
     font-family: var(--header-font);
-    font-size: 2.7rem;
+    font-size: 3rem;
     margin-top: 40px;
 }
 
@@ -230,14 +230,14 @@ nav {
     margin-top: 30px;
 }
 
-#menuhead {
-    color: var(--black);
+nav h2 {
+    color: var(--dk-gray);
     font-style: italic;
     font-weight: bolder;
     text-transform: uppercase;
     letter-spacing: -1px;
     font-family: var(--body-font);
-    font-size: 1.4rem;
+    font-size: 2rem;
 }
 
 nav ul,
@@ -260,7 +260,7 @@ nav li {
 
 nav a {
     text-decoration: none;
-    color: var(--dk-blue);
+    color: var(--purple);
     text-transform: uppercase;
     font-size: 0.8rem;
 }
@@ -323,7 +323,7 @@ main img {
 
 #choose ul li {
     border-radius: 20px;
-    color: var(--black);
+    color: var(--dk-gray);
     font-weight: bolder;
     text-align: center;
     font-size: 1.2rem;
@@ -337,7 +337,7 @@ main img {
 }
 
 #choose ul li:nth-child(2) {
-    background-color: var(--lt-blue);
+    background-color: var(--lavender);
 }
 
 #choose ul li:nth-child(3) {
@@ -361,7 +361,7 @@ main img {
 
 #pricing table th {
     background-color: var(--yellow);
-    color: var(--black);
+    color: var(--dk-gray);
     font-weight: bolder;
     font-size: 1.1rem;
     padding: 15px 20px;
@@ -371,7 +371,7 @@ main img {
 
 #pricing table td {
     background-color: var(--white);
-    color: var(--black);
+    color: var(--dk-gray);
     padding: 12px;
     text-align: left;
 }
@@ -406,7 +406,7 @@ main img {
 
 #firststep a {
     text-decoration: none;
-    color: var(--black);
+    color: var(--dk-gray);
     font-weight: bolder;
     text-transform: uppercase;
     font-size: 0.8rem;
