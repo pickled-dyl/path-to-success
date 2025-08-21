@@ -279,14 +279,65 @@ main img {
     flex-direction: column;
 }
 
-#services h3 {
+.bluecont h3 {
     margin: 6px 0;
 }
 
 .card {
     background-color: var(--white);
-    border-radius: 25px;
+    border-radius: 20px;
     padding: 25px;
     line-height: 1.5;
     margin: 8px 10px;
+}
+
+.pinkcont {
+    background-color: var(--pink);
+}
+
+#choose {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+
+#choose h2 {
+    margin-top: 12px;
+    margin-left: 12px;
+}
+
+#choose ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin: 15px 0;
+}
+
+#choose ul li {
+    border-radius: 20px;
+    color: var(--black);
+    font-weight: bolder;
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 40px 0;
+    height: 30px;
+    width: 185px;
+}
+
+#choose ul li:nth-child(1) {
+    background-color: var(--teal);
+}
+
+#choose ul li:nth-child(2) {
+    background-color: var(--lt-blue);
+}
+
+#choose ul li:nth-child(3) {
+    background-color: var(--yellow);
+}
+
+#choose ul li:nth-child(4) {
+    background-color: var(--white);
 }
